@@ -1,0 +1,53 @@
+.hero {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.services {
+  padding: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+.scheduling {
+  padding: 20px;
+}
+
+.scheduling form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scheduling input[type="date"], .scheduling input[type="time"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #3e8e41;
+}
